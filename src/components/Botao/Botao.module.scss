@@ -1,0 +1,14 @@
+.Botao {
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    background-color: transparent;
+
+    color: #2A7AE4;
+    font-family: inherit;
+    font-size: inherit;
+
+    @media screen and (max-width : 768px){
+        font-weight: 600;
+    }
+}
