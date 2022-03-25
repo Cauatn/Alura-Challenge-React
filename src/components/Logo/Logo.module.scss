@@ -1,4 +1,24 @@
 .logo {
-    display: flex;
-    align-items: center;
+
+    .logoN {
+        display: inherit;
+        display: flex;
+        align-items: center;
+    }
+
+    .logoP {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        .logoN {
+            display: none;
+        }
+
+        .logoP {
+            display: inherit;
+            display: flex;
+            align-items: center;
+        }
+    }
 }
