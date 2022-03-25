@@ -15,5 +15,17 @@
     @media screen and (max-width: 874px){
         margin: 16px 32px;
     }
+
+    @media screen and (max-width: 562px){
+        .container {
+            gap: 0px;
+        }
+    }
+
+    @media screen and (max-width: 500px){
+        .Header {
+            margin: 16px 16px;
+        }
+    }
 }
 
