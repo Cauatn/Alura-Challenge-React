@@ -1,22 +1,87 @@
-.footer {
 
-    .footerContainer {
-         background-color: #EAF2FD;
+.footerContainer {
+
+    .formularioContainer {
+        width: 100%;
     }
+
+    background-color: #EAF2FD;
 
     .primeiroContainer {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding: 64px 152px;
-    }
-    
-    .segundoContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 32px 0px;
-        background-color: #FFFFFF;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: 1fr;
+     padding: 64px 152px;
+
+     @media screen and (max-width: 1020px){
+        padding: 32px;
     }
 
+     @media screen and (max-width: 665px){
+        padding: 32px 10px;
+     }
+
+     .logoListaContainer {
+        display: flex;
+        width: 100%;
+
+        @media screen and (max-width: 1205px){
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+            margin-right: 94px;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 635px) {
+            margin-right: 0px;
+        }
+
+        & .logo {
+            margin-right: 112px;
+
+            @media screen and (max-width: 1315px){
+                margin-right: 0px;
+            }
+        }
+
+     }
+    
+        @media screen and (max-width: 1236px){
+        
+                ul {
+                    @media screen and (max-width: 1130px) {
+                        align-items: flex-start;
+                    }
+                }
+
+                form {
+                    grid-column: 2 / span 1;
+                }
+
+                button {
+                    width: 151px;
+                    height: 40px;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+        }
+
+        @media screen and (max-width: 530px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 26.5px 16px;
+        }
+    }
+}
+    
+.segundoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    background-color: #FFFFFF;
 }

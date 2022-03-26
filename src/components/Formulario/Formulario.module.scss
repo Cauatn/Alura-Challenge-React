@@ -42,6 +42,14 @@
             &:focus {
                 outline: none;
             }
+
+            @media screen and (max-width: 890px){
+                width: 420px;
+            }
+
+            @media screen and (max-width: 635px){
+                width: 304px;
+            }
         }
     }
 
@@ -58,6 +66,15 @@
 
         &:focus {
             outline: none;
+        }
+
+        @media screen and (max-width: 890px){
+            width: 410px;
+            height: 64px;
+        }
+
+        @media screen and (max-width: 635px){
+            width: 294px;
         }
     }
 
