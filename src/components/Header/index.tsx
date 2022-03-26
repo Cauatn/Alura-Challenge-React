@@ -7,13 +7,13 @@ import BotaoPesquisa from '../BotaoPesquisa';
 
 export default function Header() {
     return (
-        <div className={style.Header}>
+        <header className={style.Header}>
             <div className={style.container}>
                 <Logo />
                 <NavBar />
             </div>
             <Botao texto={'Login'}/>
             <BotaoPesquisa />
-        </div>
+        </header>
     )
 }
