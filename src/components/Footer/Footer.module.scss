@@ -1,18 +1,21 @@
 .footer {
 
+    .footerContainer {
+         background-color: #EAF2FD;
+    }
+
     .primeiroContainer {
-        background-color: #EAF2FD;
-    }
-
-    .containerConteudo {
         display: grid;
-        margin: 64px 152px;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 64px 152px;
     }
-
+    
     .segundoContainer {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        padding: 32px 0px;
     }
 
 }
