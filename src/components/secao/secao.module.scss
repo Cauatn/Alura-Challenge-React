@@ -1,0 +1,59 @@
+main {
+
+    padding: 32px 152px;
+
+    a {
+        color: #2A7AE4;
+        font-size: inherit;
+        font-weight: 700;
+        font-family: inherit;
+        line-height: 18.78px;
+    }
+
+    h1 {
+        font-family: inherit;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32.75px;
+        color: #464646;
+    }
+}
+
+
+.mainHeader {
+
+    width: auto;
+    height: 38px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 16px;
+
+    .verTudo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        gap: 12px;
+
+        & p {
+            font-size: inherit;
+        }
+
+        & .botaoSeta {
+            width: 16px;
+            height: 16px;
+
+            cursor: pointer;
+
+            background-image: url('../../assets/img/Seta.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+            background-color: transparent;
+        }
+    }
+}

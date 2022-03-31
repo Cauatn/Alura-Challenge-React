@@ -1,0 +1,22 @@
+.cardImg {
+    width: 176px;
+    height: 174px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & .cardConteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        & p {
+            font-weight: 700;
+            font-family: inherit;
+            font-size: 16px;
+        }
+    }
+}
