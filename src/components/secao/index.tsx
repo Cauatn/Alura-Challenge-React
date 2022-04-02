@@ -1,8 +1,8 @@
 import style from './secao.module.scss';
 import Cards from '../Cards';
 
+export default function Secao({tipo} : {tipo : string}) {
 
-export default function Secao() {
     return (
         <section className={style.secao}>
             <div className={style.mainHeader}>
@@ -12,7 +12,7 @@ export default function Secao() {
                     <button className={style.botaoSeta}></button>
                 </div>
             </div>
-            <Cards />
+            <Cards tipo={tipo}/>
         </section>
     )
 }
