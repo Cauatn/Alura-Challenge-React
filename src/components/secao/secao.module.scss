@@ -17,43 +17,46 @@ main {
         line-height: 32.75px;
         color: #464646;
     }
-}
 
+    .secao {
+        margin-bottom: 32px;
+    }
 
-.mainHeader {
+    .mainHeader {
 
-    width: auto;
-    height: 38px;
+        width: auto;
+        height: 38px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    margin-bottom: 16px;
-
-    .verTudo {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-between;
 
-        gap: 12px;
+        margin-bottom: 16px;
 
-        & p {
-            font-size: inherit;
-        }
+        .verTudo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
 
-        & .botaoSeta {
-            width: 16px;
-            height: 16px;
+            gap: 12px;
 
-            cursor: pointer;
+            & p {
+                font-size: inherit;
+            }
 
-            background-image: url('../../assets/img/Seta.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            border: none;
-            background-color: transparent;
+            & .botaoSeta {
+                width: 16px;
+                height: 16px;
+
+                cursor: pointer;
+
+                background-image: url('../../assets/img/Seta.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                border: none;
+                background-color: transparent;
+            }
         }
     }
 }

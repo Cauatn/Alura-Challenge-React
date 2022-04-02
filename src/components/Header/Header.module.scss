@@ -1,9 +1,12 @@
 .Header {
     display: flex;
-    align-items: center;
+    width: auto;
     flex-direction: row;
     justify-content: space-between;
+
     margin: 32.5px 152px;
+
+    align-items: center;
 
     .container {
         display: flex;
