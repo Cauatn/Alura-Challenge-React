@@ -1,7 +1,7 @@
 import Botao from '../Botao';
-import style from './MainLogin.module.scss';
+import style from './FormularioLogin.module.scss';
 
-export default function MainLogin() {
+export default function FormularioLogin() {
     return (
         <main className={style.main}>
             <div className={style.Container}>

@@ -1,14 +1,14 @@
 import './Login.scss';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import MainLogin from '../../components/MainLogin';
+import FormularioLogin from '../../components/FormularioLogin';
 
 function Login() {
 
   return (
     <div className="Login">
       <Header/>
-      <MainLogin />
+      <FormularioLogin />
       <Footer/>
     </div>
   );
