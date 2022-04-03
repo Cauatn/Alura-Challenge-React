@@ -3,21 +3,24 @@
     height: 174px;
 }
 
-.cardContainer {
+.cardsContainers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    & .cardConteudo {
+    .cardConteudo {
         display: flex;
         flex-direction: column;
         gap: 8px;
 
-        & p {
-            font-weight: 700;
-            font-family: inherit;
-            font-size: 16px;
+        h2 {
+            font-weight: 500;
+            font-size: 14px;
         }
-    }
 
+        p {
+            font-weight: 700;
+        }
+
+    }
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
@@ -10,10 +9,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Main />
-      <Footer />
+      <Header/>
+      <Hero/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }

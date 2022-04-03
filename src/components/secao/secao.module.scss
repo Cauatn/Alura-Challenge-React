@@ -1,15 +1,7 @@
-main {
+.secao {
+    margin-bottom: 32px;
 
-    padding: 32px 152px;
-
-    a {
-        color: #2A7AE4;
-        font-size: inherit;
-        font-weight: 700;
-        font-family: inherit;
-        line-height: 18.78px;
-    }
-
+    
     h1 {
         font-family: inherit;
         font-size: 32px;
@@ -18,8 +10,13 @@ main {
         color: #464646;
     }
 
-    .secao {
-        margin-bottom: 32px;
+
+    a {
+        color: #2A7AE4;
+        font-size: inherit;
+        font-weight: 700;
+        font-family: inherit;
+        line-height: 18.78px;
     }
 
     .mainHeader {
@@ -59,4 +56,7 @@ main {
             }
         }
     }
+
 }
+
+    

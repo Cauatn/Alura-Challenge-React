@@ -17,28 +17,31 @@ export default function Cards({tipo} : Props) {
     }]
 
     function tipoProduto() {
-        if (tipo == 'Star Wars') { return ProdutosStarWars }
-        if (tipo == 'Consoles') { return ProdutosConsoles }
-        if (tipo == 'Diversos') { return ProdutosDiversos }
+        if (tipo === 'Star Wars') { return ProdutosStarWars }
+        if (tipo === 'Consoles') { return ProdutosConsoles }
+        if (tipo === 'Diversos') { return ProdutosDiversos }
         else { return produtoLista }
     }
 
     produtoLista = tipoProduto();
 
-    const produtoItens = produtoLista.map((produto, chave) => {
+    let numero = 0;
+
+    const Cartoes = produtoLista.map((produto, chave) => {
+        numero = numero + 1;
         return (
-            <div key={chave}>
-                <section ><img className={style.cardImg} src={produto.imagem} alt="Imagem" /></section>
+            <div key={chave} className={`cartao cartao__${numero}`}>
+                <section><img className={style.cardImg} src={produto.imagem} alt="Imagem" /></section>
                 <div className={style.cardConteudo}>
                     <h2> {produto.nome} </h2>
                     <p>R$ {produto.preco} </p>
-                    <a href="#"> Ver tudo </a>
+                    <a href="#top"> Ver tudo </a>
                 </div>
             </div>
         )});
 
     return(
-        <div className={style.cardContainer}> {produtoItens} </div>
+       <div className={style.cardsContainers}> {Cartoes} </div>
     )
 }
 
