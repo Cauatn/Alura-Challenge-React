@@ -1,0 +1,68 @@
+.main {
+    background-color: #F5F5F5;
+    padding: 91px 0px;
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        width: 423px;
+        height: 291px;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto auto;
+        
+        .titulo {
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 18px;
+            color: #464646;
+
+            
+        }
+    
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 24.35px;
+    
+            .input {
+                width: 394px;
+                height: 23px;
+                padding: 18.11px 12px;
+                font-family: inherit;
+                color: #A2A2A2;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 400;
+                border: none;
+
+                @media screen and (max-width: 550px){
+                    width: 258px;
+                    height: 12px;
+                }
+            }
+    
+            button {
+                width: 100%;
+                height: 62px;
+                background-color: #2A7AE4;
+                color: #FFFFFF;
+
+                @media screen and (max-width: 550px){
+                    width: 110px;
+                    height: 40px;
+                    align-self: center;
+                }
+            }
+        }
+
+        @media screen and (max-width: 550px){
+            justify-content: center;
+            gap: 16px;
+        }
+    
+    }
+
+
+}
+
