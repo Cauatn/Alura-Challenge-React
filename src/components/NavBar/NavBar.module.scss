@@ -1,0 +1,33 @@
+.formulario {
+    position: relative;
+
+    input {
+        width: 293px;
+        height: 40px;
+        background-color: #F5F5F5;
+        border: none;
+        border-radius: 20px;
+        padding-left: 18px;
+
+        font-family: inherit;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        position: absolute;
+        border: none;
+        top: calc(50% - 10px);
+        right: 18px;
+        background-color: #F5F5F5;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        display: none;
+    }
+}

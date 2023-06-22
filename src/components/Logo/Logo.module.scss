@@ -1,0 +1,25 @@
+.logo {
+
+    .logoN {
+        display: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoP {
+        display: none;
+    }
+
+    @media screen and (max-width: 770px) {
+        .logoN {
+            display: none;
+        }
+
+        .logoP {
+            display: inherit;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
