@@ -1,4 +1,5 @@
-# Caso baixe o projeto execute o comando `npm install react-scripts --save`
+# Caso baixe o projeto execute o comando:
+`npm install react-scripts --save`
 Ele é nescessario para baixar as dependências que fazem a aplicação rodar, logo após siga os procedimentos padrão para a execução de projeto React
 
 # Getting Started with Create React App
