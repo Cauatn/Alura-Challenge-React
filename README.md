@@ -1,9 +1,6 @@
-Alura react
-
-
-# Caso baixe o projeto execute o comando:
+# Caso baixe o projeto e o mesmo não rode
 `npm install react-scripts --save`
-Ele é nescessario para baixar as dependências que fazem a aplicação rodar, logo após siga os procedimentos padrão para a execução de projeto React
+Execute o comando a cima, ele é nescessario para baixar as dependências que fazem a aplicação rodar, logo após siga os procedimentos padrão para a execução de projeto React, por algum erro quando baixamos o projeto, os arquivos node-modules não estão instalando logo em seguida
 
 # Getting Started with Create React App
 
