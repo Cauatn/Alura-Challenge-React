@@ -7,11 +7,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .cardConteudo {
         display: flex;
         flex-direction: column;
         gap: 8px;
+
+        @media screen and (max-width: 1400px) {
+            margin-bottom: 10px;
+        }
 
         h2 {
             font-weight: 500;
