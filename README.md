@@ -1,5 +1,14 @@
+<h1 align="center"> Alura Challenge 5 </h1>
+<p align="center">
+Desafio Alura 5 Front-End, projeto feito do zero para consolidar os conhecimentos React e Sass desenvolvidos durante o aprendizado.
+</p>
+<p align="center">
+<img src="https://github.com/Cauatn/Alura-Challenge-React/assets/39890456/6bc2b2a2-3741-4c91-97ea-6850488d1464"/>
+</p>
+
 # Caso baixe o projeto e o mesmo não rode
 `npm install react-scripts --save`
+
 Execute o comando a cima, ele é nescessario para baixar as dependências que fazem a aplicação rodar, logo após siga os procedimentos padrão para a execução de projeto React, por algum erro quando baixamos o projeto, os arquivos node-modules não estão instalando logo em seguida
 
 # Getting Started with Create React App
