@@ -1,4 +1,4 @@
-import Botao from '../Botao';
+import Botao from '../LoginButton';
 import style from './FormularioLogin.module.scss';
 
 export default function FormularioLogin() {

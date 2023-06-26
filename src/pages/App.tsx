@@ -1,19 +1,24 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
+import MainPage from './MainPage/MainPage'
+import Login from './Login/Login'
+import Produto from './Produto/Produto';
 import Header from '../components/Header';
-import Hero from '../components/Hero';
 import Footer from '../components/Footer';
-import Main from '../components/Main';
+
 
 function App() {
 
   return (
-    <div className="App">
-      <Header/>
-      <Hero/>
-      <Main/>
-      <Footer/>
-    </div>
+         <div className='App'>
+          <Header/>
+              <Routes>
+                <Route path='/' element ={<MainPage/>}/>
+                <Route path='/Login' element ={<Login/>}/>
+              </Routes>
+          <Footer/>
+          </div>
   );
 }
 

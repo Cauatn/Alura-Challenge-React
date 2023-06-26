@@ -1,7 +1,6 @@
 import style from './Hero.module.scss';
-import Botao from '../Botao';
+import Botao from '../LoginButton';
 import Banner from '../../assets/img/Banner.png';
-
 
 export default function Hero() {
     return (

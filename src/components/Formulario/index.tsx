@@ -1,5 +1,5 @@
 import React from "react";
-import Botao from "../Botao";
+import Botao from "../LoginButton";
 import style from './Formulario.module.scss';
 
 export default function Formulario() {
