@@ -1,0 +1,36 @@
+.mainContainer {
+    margin: 64px 152px;
+
+    .produto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        .descricaoContainer {
+            display: flex;
+            flex-direction: column;
+            margin-left: 16px;
+            gap: 8px;
+
+            h1 {
+                font-size: 52px;
+                font-weight: 500;
+                font-family: inherit;
+                line-height: 61px;
+                color: #464646;
+            }
+
+            .preco {
+                font-weight: 700;
+                font-size: inherit;
+            }
+
+            p {
+                color: #464646;
+                font-weight: 40;
+                font-family: inherit;
+            }
+        }
+    }
+}
