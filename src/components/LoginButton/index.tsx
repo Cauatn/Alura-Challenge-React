@@ -7,6 +7,6 @@ interface Props {
 
 export default function LoginButton({texto} : Props) {
     return(
-        <button className={style.Botao}><Link to="/Login" >{texto}</Link></button>
+        <Link to="/Login" ><button className={style.Botao}>{texto}</button></Link>
     )
 }

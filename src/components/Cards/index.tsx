@@ -1,4 +1,5 @@
 import style from './Card.module.scss';
+import { Link } from 'react-router-dom';
 
 import { ProdutosStarWars } from '../../common/Produtos/ProdutosStarWars';
 import { ProdutosConsoles } from '../../common/Produtos/ProdutosConsoles';
@@ -31,7 +32,7 @@ export default function Cards({tipo} : Props) {
         numero = numero + 1;
         return (
             <div key={chave} className={`cartao cartao__${numero}`}>
-                <section><img className={style.cardImg} src={produto.imagem} alt="Imagem" /></section>
+                <Link to='/Produto' ><section><img className={style.cardImg} src={produto.imagem} alt="Imagem" /></section></Link>
                 <div className={style.cardConteudo}>
                     <h2> {produto.nome} </h2>
                     <p>R$ {produto.preco} </p>

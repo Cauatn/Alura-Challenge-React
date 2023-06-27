@@ -7,9 +7,7 @@ function Produto() {
 
   return (
     <div className="Produto">
-      <Header/>
       <MainProduto />
-      <Footer/>
     </div>
   );
 }
